@@ -15,6 +15,12 @@ test('palindrome of empty string', () => {
 
 test('palindrome of undefined', () => {
     const result = palindrome()
+
+    expect(result).toBe()
+});
+
+test('palindrome of numbers', () => {
+    const result = palindrome(9)
     
     expect(result).toBe()
 });

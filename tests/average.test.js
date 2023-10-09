@@ -12,4 +12,8 @@ describe('average', () => {
     test('of empty array is Zero', () => {
         expect(average([])).toBe(0)
     })
+
+    test('of many array is Zero', () => {
+        expect(average([0])).toBe(0)
+    })
 })
